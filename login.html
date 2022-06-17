@@ -1,41 +1,48 @@
+
+<!-- Import Essential Libraries / Encoding/ Stylesheet  Etc..-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
 
     <link rel="stylesheet" href="style.css">
-</head>
+
+  </head>
+ <!-- END OF IMPORT-->
 
 
-
-<body>
+<body id="body-background"> <!-- Defining Background color-->
 
   
-    <div id="login-form-wrap">
-        <h2>Sign In</h2> 
+  
+  <!-- Defining Essential Containers and Login Fields.. -->
+  
+   
+  <div id = "login-form-wrap">
+         
+         <form id="login-form">
+          
+          <div id="signone"> <H2> Welcome! - Sign In </H2> </div>
 
-        <form id="login-form">
+          <p>
+          <input class = "one" type ="text"  name ="username" placeholder="username">
+          </p>
           
           <p>
-          <input class="one" type="text" id="username" name="username" placeholder="username">
+          <input class ="one" type ="password" name ="password" placeholder="password">
           </p>
+          
           <p>
-          <input class="one" type="password" id="password" name="password" placeholder="password">
+          <input id = "sbutton" type ="submit" value ="Sign in">
           </p>
-          <p>
-          <input id ="sbutton" type="submit" id="login" value="Sign in">
-          </p>
-        </form>
-        
-
-
-
-
-
-
-
-</body>
-</html>
+       
+          <!-- END Of Containers / Login Fields! -->
+    
+    
+    </form>
+    </body>
+    </html>

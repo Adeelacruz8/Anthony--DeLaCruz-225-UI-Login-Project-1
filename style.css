@@ -1,63 +1,65 @@
 
+#body-background
+{background-color:#fbfbfb;}
 
 
-body{background-color:#fbfbfb;}
 
-h2{color:#291f1f;
-  font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;             
+#login-form-wrap
+{ height: 96vh;
+  width: 96vw;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.90);
   
-  position: center;
-  top: 40px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;}
 
-          }
 
-         
-
-#login-form-wrap{
+  #login-form
+  {border-style: groove;
+    
     background-color: #ffffff;
-    width: 40%;
-    margin: 200px auto;
-    text-align: center;
-    padding: 150px 0 0 0;
-    border-radius: 40px;
-    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  #login-form {
-    padding: 0 100px;
-  }
-
-  .one{
-    width: 100%;
-    padding:  10px;
-    margin: auto;
-    color: #8a8b8e;
-    border: 1px solid #c2c0ca;
-    border-radius: 60px;
-    font-style: normal;
-    font-size: 16px;
-    position: relative;
-    bottom: 40px;
-    display: inline-block ;
-    background: none;
-    text-align: center;       
-     caret-color: red;                   }
-  
-  
+    border-width: 40%;
+    color: black;
+    border-radius: 30px;
    
+    min-height: 15%; 
+    min-width: 15%;
 
-  #sbutton {
-    border: none;
-    display: block;
-    background-color: #3ca9e2;
-    color: #fff;
-    width: 200px;
-    border-radius: 60px;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 12px;
-    position: relative;
-    bottom: 40px;
-    display: inline-block;
-    text-align: center;}
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+   
+    
+    box-shadow: 0 15px 15px 10px rgb(0,0,0,0.90);
+    flex-grow: 0.25;}
+
+    #signone 
+    {margin: 0px;
+    color:black;}
+
+
+    .one
+    {margin:auto
+    border: 0px;
+    border-bottom: 1px solid #291f1f;
+    font-style: normal;
+    font-size: 18px;
+    text-align:center;
+    caret-color: blue;}
+    
+
+
+#sbutton 
+{border: 0px;
+border-radius: 32px 32px 35px 35px;
+
+padding: 12px;
+width: 178px;
+
+color: #fff;
+background-color: #1DA1F2;
+
+font-size: 18px ;
+font-weight: bold;}
