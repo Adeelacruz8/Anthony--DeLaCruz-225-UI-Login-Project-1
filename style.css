@@ -5,8 +5,8 @@
 
 
 #login-form-wrap
-{ height: 96vh;
-  width: 96vw;
+{ height: 100vh;
+  width: 100vw;
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.90);
   
   display: flex;
@@ -15,12 +15,12 @@
 
 
   #login-form
-  {border-style: groove;
+  {border-style: hidden; 
     
     background-color: #ffffff;
     border-width: 40%;
     color: black;
-    border-radius: 30px;
+    border-radius: 10px;
    
     min-height: 15%; 
     min-width: 15%;
@@ -32,8 +32,8 @@
     flex-flow: column;
    
     
-    box-shadow: 0 15px 15px 10px rgb(0,0,0,0.90);
-    flex-grow: 0.25;}
+    box-shadow: 0 15px 15px 10px rgb(0,0,0,0.40);
+    flex-grow: 0.18;}
 
     #signone 
     {margin: 0px;
@@ -41,7 +41,7 @@
 
 
     .one
-    {margin:auto
+    { 
     border: 0px;
     border-bottom: 1px solid #291f1f;
     font-style: normal;
@@ -56,10 +56,10 @@
 border-radius: 32px 32px 35px 35px;
 
 padding: 12px;
-width: 178px;
+width: 168px;
 
 color: #fff;
 background-color: #1DA1F2;
 
-font-size: 18px ;
+font-size: 17px ;
 font-weight: bold;}
